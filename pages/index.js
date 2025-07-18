@@ -49,8 +49,8 @@ function calcularValorNegociacao(chamados, nomeProvedor) {
 // Usuários fake
 const usuariosFake = [
   { email: 'colaborador@pingdesk.com', senha: 'ping1234', tipo: 'colaborador' },
-  { email: 'mynet@provedor.com', senha: 'ping1234', tipo: 'provedor', nomeProvedor: 'Mynet' },
-  { email: 'bkup@provedor.com', senha: 'ping1234', tipo: 'provedor', nomeProvedor: 'Bkup' },
+  { email: 'mynet@provedor.com', senha: 'Myn3T@MF25', tipo: 'provedor', nomeProvedor: 'Mynet' },
+  { email: 'bkup@provedor.com', senha: 'Bkup@2025', tipo: 'provedor', nomeProvedor: 'Bkup' },
 ];
 
 // Chamados fake iniciais
