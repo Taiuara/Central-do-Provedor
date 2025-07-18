@@ -1,0 +1,1 @@
+// Usuários fixos (admin, mynet, bkup)

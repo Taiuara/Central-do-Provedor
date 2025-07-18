@@ -1,0 +1,1 @@
+// Layout base com navegação condicional
