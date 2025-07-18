@@ -60,7 +60,8 @@ export default function PingDesk() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [usuarioLogado, setUsuarioLogado] = useState(null);
-  const [chamados, setChamados] = useState(chamadosFakeIniciais);
+  const [chamados, setChamados] = useState([]);
+
 
   const [formChamado, setFormChamado] = useState({
     provedor: '',
