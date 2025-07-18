@@ -53,13 +53,6 @@ const usuariosFake = [
   { email: 'bkup@provedor.com', senha: 'Bkup@2025', tipo: 'provedor', nomeProvedor: 'Bkup' },
 ];
 
-// Chamados fake iniciais
-const chamadosFakeIniciais = [
-  { id: 1, provedor: 'Mynet', nome: 'Cliente A', telefone: '1234-5678', protocolo: '0001', data: '2025-07-01', valorAtendimento: '3,50', descricao: 'Internet instável' },
-  { id: 2, provedor: 'Bkup', nome: 'Cliente B', telefone: '8765-4321', protocolo: '0002', data: '2025-06-30', valorAtendimento: '4,50', descricao: 'Roteador não conecta' },
-  { id: 3, provedor: 'Mynet', nome: 'Cliente C', telefone: '1111-2222', protocolo: '0003', data: '2025-07-15', valorAtendimento: '119,90', descricao: 'Venda plano 100mb' },
-  { id: 4, provedor: 'Bkup', nome: 'Cliente D', telefone: '3333-4444', protocolo: '0004', data: '2025-07-02', valorAtendimento: '1,50', descricao: 'Atualização em massa' },
-];
 
 export default function PingDesk() {
   const [email, setEmail] = useState('');
